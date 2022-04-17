@@ -1,0 +1,8 @@
+Create a python code to do year mean, max, rollingmean with plots.
+import xarray as xr
+from matplotlib import pyplot as plt
+from mpl_toolskit import Basemap as Basemap
+#################
+sat = xr.open_dataset('/home/masabas/Downloads/air.tropp.1953.nc')
+sat.air.groupby("time.month").mean("time").plot(x='lon', y='lat', col='month', col_wrap=3)
+plt.show()
