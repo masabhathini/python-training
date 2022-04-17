@@ -15,6 +15,8 @@ conda install  -n envPy38Sat -c conda-forge metpy    -y
 conda install  -n envPy38Sat -c conda-forge xmitgcm  -y
 ### Big Data parallel computing 
 conda install  -n envPy38Sat -c conda-forge dask distributed  dask-jobqueue  -y
+####  Tools 
+conda install  -n envPy38Sat -c conda-forge python-cdo
 ## plotting
 conda install  -n envPy38Sat -c conda-forge matplotlib   -y
 ## Shape files
