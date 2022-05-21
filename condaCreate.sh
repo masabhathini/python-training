@@ -23,6 +23,7 @@ conda install  -n envPy38Sat -c conda-forge matplotlib   -y
 conda install  -n envPy38Sat -c conda-forge basemap   -y
 conda install  -n envPy38Sat -c conda-forge cartopy   -y
 conda install  -n envPy38Sat -c conda-forge basemap-data-hires   -y
+conda install  -n envPy38Sat -c conda-forge geopandas   -y
 #######################################
 #######################################
 source ~/anaconda3/bin/activate envPy38Sat
