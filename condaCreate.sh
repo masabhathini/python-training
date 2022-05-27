@@ -27,6 +27,8 @@ conda install  -n envPy38Sat -c conda-forge geopandas   -y
 conda install  -n envPy38Sat -c conda-forge rioxarray   -y
 conda install  -n envPy38Sat -c conda-forge climpred   -y
 conda install  -n envPy38Sat -c conda-forge xclim   -y
+conda install  -n envPy38sat -c anaconda jinja2
+conda install  -n envPy38sat -c conda-forge folium
 #######################################
 #######################################
 source ~/anaconda3/bin/activate envPy38Sat
