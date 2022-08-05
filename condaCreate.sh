@@ -31,6 +31,7 @@ conda install  -n envPy38Sat -c anaconda jinja2
 conda install  -n envPy38Sat -c conda-forge folium
 conda install  -n envPy38Sat -c conda-forge qgis
 conda install  -n envPy38Sat -c conda-forge f90nml
+conda install  -n envPy38Sat -c anaconda pysal
 #######################################
 #######################################
 source /home/$HOME/anaconda3/bin/activate envPy38Sat
