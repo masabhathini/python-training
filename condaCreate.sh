@@ -5,7 +5,7 @@
 ## sateesh.masabathini@kaust.edu.sa/masabhathini@gmail.com
 ######################
 wget  https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
-sh Anaconda3-2021.05-Linux-x86_64.sh
+sh Anaconda3-2022.05-Linux-x86_64.sh
 conda create -n envPy38Sat -c conda-forge python=3.8  -y
 ###
 conda install  -n envPy38Sat -c conda-forge satpy -y       ## for meteorological, satellite data
