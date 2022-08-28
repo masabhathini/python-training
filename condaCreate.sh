@@ -27,7 +27,8 @@ conda install  -n envPy38Sat -c conda-forge geopandas   -y
 conda install  -n envPy38Sat -c conda-forge rioxarray   -y
 conda install  -n envPy38Sat -c conda-forge climpred   -y
 conda install  -n envPy38Sat -c conda-forge xclim   -y
-conda install  -n envPy38Sat -c anaconda jinja2
+conda install  -n envPy38Sat -c conda-forge windrose -y
+conda install  -n envPy38Sat -c anaconda jinja2 
 conda install  -n envPy38Sat -c conda-forge folium
 conda install  -n envPy38Sat -c conda-forge qgis
 conda install  -n envPy38Sat -c conda-forge f90nml
