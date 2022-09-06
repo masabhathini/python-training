@@ -33,6 +33,7 @@ conda install  -n envPy38Sat -c conda-forge folium
 conda install  -n envPy38Sat -c conda-forge qgis
 conda install  -n envPy38Sat -c conda-forge f90nml
 conda install  -n envPy38Sat -c anaconda pysal
+conda install  -n envPy38Sat -c mzh pypdf4   ## pip install PyPDF4
 #######################################
 #######################################
 source /home/$HOME/anaconda3/bin/activate envPy38Sat
