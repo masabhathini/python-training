@@ -26,6 +26,7 @@ conda install  -n envPy38Sat -c conda-forge basemap-data-hires   -y
 conda install  -n envPy38Sat -c conda-forge geopandas   -y
 conda install  -n envPy38Sat -c conda-forge rioxarray   -y
 conda install  -n envPy38Sat -c conda-forge gdal -y
+conda install  -n envPy38Sat -c conda-forge pycrs -y
 conda install  -n envPy38Sat -c conda-forge climpred   -y
 conda install  -n envPy38Sat -c conda-forge xclim   -y
 conda install  -n envPy38Sat -c conda-forge windrose -y
