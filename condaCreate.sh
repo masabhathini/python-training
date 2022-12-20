@@ -41,6 +41,7 @@ pip install geog
 pip install salem
 pip install python-dotenv
 pip install motionless
+pip install scikit-image
 #######################################
 #######################################
 source /home/$HOME/anaconda3/bin/activate envPy38Sat
