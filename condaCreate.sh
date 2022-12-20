@@ -40,6 +40,7 @@ conda install  -n envPy38Sat -c mzh pypdf4   ## pip install PyPDF4
 pip install geog
 pip install salem
 pip install python-dotenv
+pip install motionless
 #######################################
 #######################################
 source /home/$HOME/anaconda3/bin/activate envPy38Sat
