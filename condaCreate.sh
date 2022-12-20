@@ -39,7 +39,7 @@ conda install  -n envPy38Sat -c mzh pypdf4   ## pip install PyPDF4
 ###
 pip install geog
 pip install salem
-pip install dotenv
+pip install python-dotenv
 #######################################
 #######################################
 source /home/$HOME/anaconda3/bin/activate envPy38Sat
