@@ -42,6 +42,7 @@ pip install salem
 pip install python-dotenv
 pip install motionless
 pip install scikit-image
+pip install pycryptodome  # Encrypt / decrypt data in python with salt
 #######################################
 #######################################
 source /home/$HOME/anaconda3/bin/activate envPy38Sat
