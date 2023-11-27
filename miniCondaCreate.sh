@@ -22,6 +22,7 @@ conda install  -n envPy38Sat -c conda-forge basemap-data-hires   -y
 conda install  -n envPy38Sat -c conda-forge geopandas   -y
 conda install  -n envPy38Sat -c conda-forge rioxarray   -y
 conda install  -n envPy38Sat -c conda-forge gdal -y
+conda install  -n envPy38Sat -c conda-forge wrf-python -y
 pip install geog
 pip install salem
 pip install python-dotenv
