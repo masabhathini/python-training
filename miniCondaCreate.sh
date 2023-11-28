@@ -10,6 +10,7 @@
 ############################################################
 conda create  -n envPy311Sat -c conda-forge wrf-python -y
 conda activate envPy311Sat
+conda install -n envPy311Sat -c conda-forge xesmf -y
 conda install  -n envPy311Sat -c conda-forge metpy    -y
 ### Big Data parallel computing 
 conda install  -n envPy311Sat -c conda-forge dask distributed  dask-jobqueue  -y
