@@ -1,0 +1,24 @@
+docker ps
+docker images
+docker ps -a     #All status
+##############
+docker pull ubuntu
+docker run -it --name ubuntu-hello ubuntu
+## inside you can do......
+## apt update
+## apt install vim
+## echo "My First Script...." > myTestScript.sh
+docker start ubuntu-hello
+docker exec ubuntu-hello bash myTestScript.sh
+###########
+docker commit -m "readyto Check"  ubuntu-hello ubuntuhelloimage ## A new image is created
+docker images 
+docker save ubuntuhelloimage -o ubuntuhelloimage.tar.gz
+docker load -i minimyimagecheck.tar.gz
+docket images
+docker run -it --name ubuntu-hellomini minimyimage
+docker run -it -p 10000:8888 --rm --name ubuntu-hellomini -v $PWD:mydrive minimyimage
+###################
+docker stop ubuntu-hello
+docker rm ubuntu-hello
+docket rmi ubuntu
