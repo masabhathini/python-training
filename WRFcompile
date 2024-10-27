@@ -1,3 +1,7 @@
+export MAMBA_EXE='/scratch/$USER/iops/bin/micromamba'
+export MAMBA_ROOT_PREFIX='/scratch/$USER/iops/micromamba'
+$MAMBA_EXE create -f $ETC_DIR/env.yaml -p /scratch/$USER/iops/micromamba/envs/operS2S  -y
+
 mkdir -p $WRF_DIR
 if [ -e $WRF_DIR/main/real.exe ] &&                 [ -e $WRF_DIR/main/wrf.exe ] &&                 [ -e $WPS_DIR/ungrib/ungrib.exe ] &&                 [ -e $WPS_DIR/metgrid/metgrid.exe ]; then
     echo "Already compiled"
