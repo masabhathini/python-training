@@ -1,6 +1,8 @@
 conda env export --no-builds > windroseEnv_CDO.yaml
 
 conda env create --name envname --file=environments.yml  #  for changing the name of the environment.
+conda activate envname
 or
 conda env create --file=environments.yml  
+conda activate windroseEnv_CDO
 
