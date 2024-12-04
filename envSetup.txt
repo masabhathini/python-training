@@ -1,8 +1,28 @@
-conda env export --no-builds > windroseEnv_CDO.yaml
+############# for CDO windows ###
+mamba  create -n windroseEnv_CDO -c conda-forge python==3.6
+mamba  install -n windroseEnv_CDO -c conda-forge cdo
+mamba activate windroseEnv_CDO
+mamba env export --no-builds > windroseEnv_CDO.yaml
 
-conda env create --name envname --file=environments.yml  #  for changing the name of the environment.
-conda activate envname
+mamba env create --name envname --file=windroseEnv_CDO.yml  #  for changing the name of the environment.
+mamba activate envname
 or
-conda env create --file=environments.yml  
-conda activate windroseEnv_CDO
+mamba env create --file=windroseEnv_CDO.yml  
+mamba activate windroseEnv_CDO
+
+
+############# for Xarray windows ###
+mamba  create -n windroseEnv_XARRAY -c conda-forge python==3.9
+mamba  install -n windroseEnv_XARRAY -c conda-forge xarray dask netCDF4 bottleneck
+
+mamba activate windroseEnv_XARRAY
+
+mamba env export --no-builds > windroseEnv_XARRAY.yaml
+
+mamba env create --name envname_xarray --file=windroseEnv_XARRAY.yml  #  for changing the name of the environment.
+mamba activate envname_xarray
+or
+mamba env create --file=windroseEnv_XARRAY.yml  
+mamba activate windroseEnv_XARRAY
+
 
