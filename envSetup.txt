@@ -19,7 +19,7 @@ mamba activate windroseEnv_XARRAY
 
 mamba env export --no-builds > windroseEnv_XARRAY.yaml
 
-mamba env create --name envname_xarray --file=windroseEnv_XARRAY.yml  #  for changing the name of the environment.
+mamba env create --name envname_xarray --file=windroseEnv_XARRAY.yaml  #  for changing the name of the environment.
 mamba activate envname_xarray
 or
 mamba env create --file=windroseEnv_XARRAY.yml  
