@@ -27,6 +27,7 @@ module load  berkeley-db/18.1.40/gcc-9.3.0-xjhkkxa
 module load  bzip2/1.0.8/gcc-9.3.0-45ekva3
 module load  gdbm/1.19/gcc-9.3.0-2ap5kcu
 module load  readline/8.1/gcc-9.3.0-4wkig23
+module load mpich/3.4.2/gcc-9.3.0-l2vippt
 export NETCDF=/sw/workstations/apps/linux-ubuntu20.04-broadwell/netcdf-fortran/4.5.3/gcc-9.3.0/4l575ityuxqcl7iytehhm2pmlfjb643k/
 export JASPERINC=/sw/workstations/apps/linux-ubuntu20.04-broadwell/jasper/2.0.32/gcc-9.3.0/mekp25ssnjbw37upxiyw7zfrwp4knnmk/include
 export JASPERLIB=/sw/workstations/apps/linux-ubuntu20.04-broadwell/jasper/2.0.32/gcc-9.3.0/mekp25ssnjbw37upxiyw7zfrwp4knnmk/lib
